@@ -278,19 +278,19 @@ namespace MathsProgram
  {
       Console.WriteLine("\t\t\t--- WELCOME TO OUR CALCULAION SYSTEM---\t\t");
              Console.WriteLine("\n Please chooose your operation");
-             Console.WriteLine("\n 1. addition");
-             Console.WriteLine("\n 2. subtraction");
-             Console.WriteLine("\n 3. multiplication");
-             Console.WriteLine("\n 4. division");
-             Console.WriteLine("\n 5. square root");
-             Console.WriteLine("\n 6. square");
-             Console.WriteLine("\n 7. cube root");
-             Console.WriteLine("\n 8. power");
-             Console.WriteLine("\n 9. min value and max value");
-             Console.WriteLine("\n 10. lcm and hcf");
-             Console.WriteLine("\n 11. average value and max value");
-             Console.WriteLine("\n 12. exponential function");
-             Console.WriteLine("\n 13. trigonometry function");
+             Console.WriteLine("\n 1. addition Operation");
+             Console.WriteLine("\n 2. subtraction Operation");
+             Console.WriteLine("\n 3. multiplication Operation");
+             Console.WriteLine("\n 4. division Operation");
+             Console.WriteLine("\n 5. square root Operation");
+             Console.WriteLine("\n 6. square Operation");
+             Console.WriteLine("\n 7. cube root Operation");
+             Console.WriteLine("\n 8. power Operation");
+             Console.WriteLine("\n 9. min value and max value Operation");
+             Console.WriteLine("\n 10. lcm and hcf Operation");
+             Console.WriteLine("\n 11. average value and max value Operation");
+             Console.WriteLine("\n 12. exponential Operation");
+             Console.WriteLine("\n 13. trigonometry Operation");
              Console.WriteLine("\n 0. Exit program");
             
              Console.WriteLine("\n Enter your choice of application");
