@@ -276,7 +276,7 @@ namespace MathsProgram
 // start of main function
  public static void Main(string[] args)
  {
-      Console.WriteLine("\t\t\t--- WELCOME TO OUR CALCULAION SYSTEM---\t\t");
+      Console.WriteLine("\t\t\t--- WELCOME TO OUR CALCULATION SYSTEM---\t\t");
              Console.WriteLine("\n Please chooose your operation");
              Console.WriteLine("\n 1. addition Operation");
              Console.WriteLine("\n 2. subtraction Operation");
