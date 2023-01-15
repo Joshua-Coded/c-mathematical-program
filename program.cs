@@ -1,14 +1,11 @@
 using System;
 
+
 namespace MathsProgram
-
 {
-
-    public class Program 
-
-    {
-
-        // all the functions are defined  here
+        public class Program 
+        {
+                    // all the functions are defined  here
 
             public static void sum() // function for addition
          {
@@ -21,8 +18,8 @@ namespace MathsProgram
             add = a + b;
             Console.WriteLine(" The Sum  is =  " + add); 
         }
-
-            public static void sub() // function for substraction
+        
+         public static void sub() // function for substraction
         {
             //int a, b, z;
 
@@ -33,6 +30,8 @@ namespace MathsProgram
             z = a - b;
             Console.WriteLine("Subraction =  " + z); 
         }
+        
+        
 
             public static void mul() // multiplication function
         {
@@ -71,7 +70,7 @@ namespace MathsProgram
                 Console.ReadLine();
 }
 
-     
+       
      // method for cube root
                 public static void cube_root()
         {
@@ -144,12 +143,12 @@ namespace MathsProgram
                         Console.WriteLine("Max value......" + max);
 
                 } 
-     
-     public static void avg()
+                
+                public static void avg()
      {
             int userInput;
 		int n, count = 1;
-		float x, average, sum = 0;
+		float average, sum = 0;
 		Console.WriteLine("Enter the value of n:");
 		n = Convert.ToInt32(Console.ReadLine());
 		while (count <= n)
@@ -165,6 +164,8 @@ namespace MathsProgram
 		
 	}
 	
+	
+	
 	public static void exp()
 	{
 	            double m, n;  
@@ -176,6 +177,7 @@ namespace MathsProgram
         Console.WriteLine("Result : {0}", value1);  
         Console.ReadLine();  
 	}
+	
 	
 	public static void power()
 	{
@@ -201,6 +203,8 @@ namespace MathsProgram
  
         Console.ReadLine();
 	}
+	
+	
 
         public static void square()
             {
@@ -211,95 +215,90 @@ namespace MathsProgram
                 Console.WriteLine("Square of {0} is: {1}", Number, Sqr); 
             }
 
+
             public static void trig()
             {
+
         Double angle = Math.PI/4; //45 degrees
         Double value = Math.Sin(angle);
         Console.WriteLine($"Sine ({(180 / Math.PI) * angle} degrees) = {value}");
 
 
-        Double angle = Math.PI/2; //90 degrees
-        Double value = Math.Sin(angle);
-        Console.WriteLine($"Sine ({(180 / Math.PI) * angle} degrees) = {value}");
+     //  Double angle = Math.PI/2; //90 degrees
+       // Double value = Math.Sin(dangle);
+        //Console.WriteLine($"Sine ({(180 / Math.PI) * dangle} degrees) = {val}");
 
-        Double angle = -Math.PI/6; //-60 degrees 
-        Double value = Math.Sin(angle);
-        Console.WriteLine($"Sine ({(180 / Math.PI) * angle} degrees) = {value}");
+       // Double angle = -Math.PI/6; //-60 degrees 
+        //Double value = Math.Sin(angle);
+        //Console.WriteLine($"Sine ({(180 / Math.PI) * angle} degrees) = {value}");
         
 
-        Double angle = Math.PI/4; //45 degrees
-        Double value = Math.Cos(angle);
-        Console.WriteLine($"Cosine ({(180 / Math.PI) * angle} degrees) = {value}");
+        //Double angle = Math.PI/4; //45 degrees
+        //Double value = Math.Cos(angle);
+        //Console.WriteLine($"Cosine ({(180 / Math.PI) * angle} degrees) = {value}");
  
 
-        Double angle = Math.PI/2; //90 degrees 
-        Double value = Math.Cos(angle);
-        Console.WriteLine($"Cosine ({(180 / Math.PI) * angle} degrees) = {value}");
+        //Double angle = Math.PI/2; //90 degrees 
+        //Double value = Math.Cos(angle);
+        //Console.WriteLine($"Cosine ({(180 / Math.PI) * angle} degrees) = {value}");
    
-        Double angle = Math.PI/3; //-60 degrees
-        Double value = Math.Cos(angle);
-        Console.WriteLine($"Cosine ({(180 / Math.PI) * angle} degrees) = {value}");
+        //Double angle = Math.PI/3; //-60 degrees
+        //Double value = Math.Cos(angle);
+        //Console.WriteLine($"Cosine ({(180 / Math.PI) * angle} degrees) = {value}");
    
 
-        Double angle = Math.PI/4; //45 degrees
-        Double value = Math.Tan(angle);
-        Console.WriteLine($"Tangent ({(180 / Math.PI) * angle} degrees) = {value}");    
+        //Double angle = Math.PI/4; //45 degrees
+        //Double value = Math.Tan(angle);
+        //Console.WriteLine($"Tangent ({(180 / Math.PI) * angle} degrees) = {value}");    
 
     
-        Double angle = Math.PI/3; //60 degrees 
-        Double value = Math.Tan(angle);
-        Console.WriteLine($"Tangent ({(180 / Math.PI) * angle} degrees) = {value}");
+        //Double angle = Math.PI/3; //60 degrees 
+        //Double value = Math.Tan(angle);
+        //Console.WriteLine($"Tangent ({(180 / Math.PI) * angle} degrees) = {value}");
 
-        Double angle = 0; //0 degrees 
-        Double value = Math.Tan(angle);
-        Console.WriteLine($"Tangent ({(180 / Math.PI) * angle} degrees) = {value}");
+        //Double angle = 0; //0 degrees 
+        //Double value = Math.Tan(angle);
+        //Console.WriteLine($"Tangent ({(180 / Math.PI) * angle} degrees) = {value}");
 
-        Double angle = Math.PI/2; //90 degrees 
-        Double value = Math.Tan(angle);
-        Console.WriteLine($"Tangent ({(180 / Math.PI) * angle} degrees) = {value}");
+        //Double angle = Math.PI/2; //90 degrees 
+        //Double value = Math.Tan(angle);
+        //Console.WriteLine($"Tangent ({(180 / Math.PI) * angle} degrees) = {value}");
     
-        Double angle = - Math.PI/3; //-60 degrees 
-        Double value = Math.Tan(angle);
-        Console.WriteLine($"Tangent ({(180 / Math.PI) * angle} degrees) = {value}");
-    }
-}
+    //    Double angle = - Math.PI/3; //-60 degrees 
+      //  Double value = Math.Tan(angle);
+    //    Console.WriteLine($"Tangent ({(180 / Math.PI) * angle} degrees) = {value}");
+            
+        }
 
-}
-                
-        // main function
-        
-        public static void Main(string[] args)
-        {
- 
- // full program execution
-            
-            
-            Console.WriteLine("\t\t\t--- WELCOME TO OUR CALCULAION SYSTEM---\t\t");
-            Console.WriteLine("\n Please chooose your operation");
-            Console.WriteLine("\n 1. addition");
-            Console.WriteLine("\n 2. subtraction");
-            Console.WriteLine("\n 3. multiplication");
-            Console.WriteLine("\n 4. division");
-            Console.WriteLine("\n 5. square root");
-            Console.WriteLine("\n 6. square");
-            Console.WriteLine("\n 7. cube root");
-            Console.WriteLine("\n 8. power");
-            Console.WriteLine("\n 9. min value and max value");
-            Console.WriteLine("\n 10. lcm and hcf");
-            Console.WriteLine("\n 11. average value and max value");
-            Console.WriteLine("\n 12. exponential function");
-            Console.WriteLine("\n 13. tirgonometry function");
-            Console.WriteLine("\n 0. Exit program");
-            
-            Console.WriteLine("\n Enter your choice of application");
-            
 
-            // the switch statements
+        // end of functions
+
+// start of main function
+ public static void Main(string[] args)
+ {
+      Console.WriteLine("\t\t\t--- WELCOME TO OUR CALCULAION SYSTEM---\t\t");
+             Console.WriteLine("\n Please chooose your operation");
+             Console.WriteLine("\n 1. addition");
+             Console.WriteLine("\n 2. subtraction");
+             Console.WriteLine("\n 3. multiplication");
+             Console.WriteLine("\n 4. division");
+             Console.WriteLine("\n 5. square root");
+             Console.WriteLine("\n 6. square");
+             Console.WriteLine("\n 7. cube root");
+             Console.WriteLine("\n 8. power");
+             Console.WriteLine("\n 9. min value and max value");
+             Console.WriteLine("\n 10. lcm and hcf");
+             Console.WriteLine("\n 11. average value and max value");
+             Console.WriteLine("\n 12. exponential function");
+             Console.WriteLine("\n 13. trigonometry function");
+             Console.WriteLine("\n 0. Exit program");
             
-                 int Choice = Convert.ToInt32(Console.ReadLine());
+             Console.WriteLine("\n Enter your choice of application");
             
-                 switch(Choice)
-                 {
+            int Choice = Convert.ToInt32(Console.ReadLine());
+            
+                switch(Choice)
+                {
                 
                 case 1:
                 sum();
@@ -358,10 +357,10 @@ namespace MathsProgram
                 Console.WriteLine("Exit program");
                 break;
                 Console.ReadLine();  
-                
-              
-        
-                 }
-                
-    }
+                }
+            
+ }
 
+
+        }
+}
