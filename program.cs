@@ -1,8 +1,11 @@
 using System;
 
 namespace MathsProgram
+
 {
+
     public class Program 
+
     {
 
         // all the functions are defined  here
@@ -261,8 +264,7 @@ namespace MathsProgram
     }
 }
 
-
-    }
+}
                 
         // main function
         
@@ -293,9 +295,12 @@ namespace MathsProgram
             
 
             // the switch statements
+            
                  int Choice = Convert.ToInt32(Console.ReadLine());
-                 switch (Choice)
-             {
+            
+                 switch(Choice)
+                 {
+                
                 case 1:
                 sum();
                 break;
@@ -353,8 +358,10 @@ namespace MathsProgram
                 Console.WriteLine("Exit program");
                 break;
                 Console.ReadLine();  
-             
+                
               
-        }
+        
+                 }
+                
     }
 
